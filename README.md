@@ -14,7 +14,7 @@ Ideal for building AI assistants that simulate interactions with virtual health 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Hirmi25/healthbot.git
+   git clone https://github.com/Hirmi25/-HealthBot-Conversational-AI-for-Medical-Query-Assistance
    cd healthbot
 
 2. Create and activate a virtual environment:
