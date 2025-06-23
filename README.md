@@ -18,17 +18,22 @@ Ideal for building AI assistants that simulate interactions with virtual health 
    cd healthbot
 
 2. Create and activate a virtual environment:
+   ```bash
   python -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Install dependencies
+4. Install dependencies
+   ```bash
   pip install -r requirements.txt
 
-4. Set up your .env file with:
+5. Set up your .env file with:
+   ```bash
   OLLAMA_API_KEY=your_key
 
-5. Create Memory for LLM
+6. Create Memory for LLM
+   ```bash
   python create_memory_for_llm.py
 
-6. Run the app:
+7. Run the app:
+   ```bash
   streamlit run app.py
